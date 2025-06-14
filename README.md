@@ -40,6 +40,27 @@ This project was a practical deep dive into computer vision techniques, combinin
 -  Wildlife Conservation in Côte d'Ivoire/013-binary-classification.ipynb : Contain the code for binary classification model from the dataset provided.
 - Wildlife Conservation in Côte d'Ivoire/014-multiclass-classification.ipynb: Multiclass model for classification of different wildlife species.
 
+### Project2: Crop Disease in Uganda
+
+Crop Disease Classification with CNNs and Transfer Learning
+This project focuses on developing a computer vision model to classify crop disease images from a dataset collected in Uganda. A convolutional neural network (CNN) is trained to recognize five distinct categories of plant disease or health. To enhance model performance and generalization, the project incorporates transfer learning and a range of training optimization techniques.
+
+Key Highlights:
+
+- Performed exploratory data analysis on a labeled crop disease image dataset.
+
+- Built and trained a convolutional neural network from scratch for image classification.
+
+- Applied transfer learning by fine-tuning a pre-trained image classification model to adapt to the crop disease domain.
+
+- Identified and addressed overfitting using regularization techniques.
+
+- Evaluated model robustness using k-fold cross-validation.
+
+- Optimized training with Keras callbacks, including learning rate scheduling, model checkpointing, and early stopping.
+
+By the end of the project, the model achieves improved classification accuracy and demonstrates good generalization performance across folds.
+
 
 
 All the notebooks in the repository are licenced  by them to be used under the CC [BY-NC-ND 4.0 licence](https://creativecommons.org/licenses/by-nc-nd/4.0/).

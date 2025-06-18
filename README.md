@@ -60,7 +60,15 @@ Key Highlights:
 - Optimized training with Keras callbacks, including learning rate scheduling, model checkpointing, and early stopping.
 
 By the end of the project, the model achieves improved classification accuracy and demonstrates good generalization performance across folds.
+The notebooks contains following notebooks:
 
+- Crop Disease in Uganda/021-fix-my-code.ipynb: Common problems in Neural networks
+
+- Crop Disease in Uganda/022-explore-dataset.ipynb: Exploration of Kaggle dataset
+
+- Crop Disease in Uganda/023-multiclass-classification.ipynb:Multi-class classfication using the neural network. It highlights the problems of overfitting.
+
+- Crop Disease in Uganda/024-transfer-learning.ipynb: Using Transfer learning to create a model to classify. It also contains the code for K-fold validation done for this model.
 
 
 All the notebooks in the repository are licenced  by them to be used under the CC [BY-NC-ND 4.0 licence](https://creativecommons.org/licenses/by-nc-nd/4.0/).

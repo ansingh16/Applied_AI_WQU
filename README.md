@@ -40,7 +40,7 @@ This project was a practical deep dive into computer vision techniques, combinin
 -  Wildlife Conservation in Côte d'Ivoire/013-binary-classification.ipynb : Contain the code for binary classification model from the dataset provided.
 - Wildlife Conservation in Côte d'Ivoire/014-multiclass-classification.ipynb: Multiclass model for classification of different wildlife species.
 
-### Project2: Crop Disease in Uganda
+## Project2: Crop Disease in Uganda
 
 Crop Disease Classification with CNNs and Transfer Learning
 This project focuses on developing a computer vision model to classify crop disease images from a dataset collected in Uganda. A convolutional neural network (CNN) is trained to recognize five distinct categories of plant disease or health. To enhance model performance and generalization, the project incorporates transfer learning and a range of training optimization techniques.
@@ -69,6 +69,31 @@ The notebooks contains following notebooks:
 - Crop Disease in Uganda/023-multiclass-classification.ipynb:Multi-class classfication using the neural network. It highlights the problems of overfitting.
 
 - Crop Disease in Uganda/024-transfer-learning.ipynb: Using Transfer learning to create a model to classify. It also contains the code for K-fold validation done for this model.
+
+
+## Project 3: Traffic in Bangladesh
+
+This project focuses on analyzing real-time traffic video feed data from Dhaka, Bangladesh. The main objective is to process video frames and detect objects such as cars, pedestrians, and other traffic-related entities using object detection techniques. You'll work with both pre-trained YOLO models and fine-tune them to detect custom objects relevant to the traffic scenes.
+
+Key Highlights:
+
+- Processed traffic video feed data from Dhaka, Bangladesh for object detection tasks.
+
+- Extracted and labeled frames from raw video files for training and evaluation.
+
+- Parsed XML annotation files containing bounding box data for custom object classes.
+
+- Applied a pre-trained YOLO model for real-time object detection on traffic frames.
+
+- Fine-tuned the YOLO model to detect custom traffic-related objects such as rickshaws and buses.
+
+- Performed data augmentation to improve model generalization and reduce overfitting during training.
+
+The notebooks contains following notebooks:
+
+- Trafic in Bangladesh/032-traffic-data-as-images-and-video.ipynb: Dealing with images, videos, Parsing xml data using ElementTree.
+- Trafic in Bangladesh/033-object-detection-with-yolov8.ipynb: Prediction using YOLO algorithm using pretrained model.
+
 
 
 All the notebooks in the repository are licenced  by them to be used under the CC [BY-NC-ND 4.0 licence](https://creativecommons.org/licenses/by-nc-nd/4.0/).
